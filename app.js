@@ -1,0 +1,10 @@
+console.log("hello world");
+var a = 10;
+;
+var b = true;
+var c = "deepak";
+var d;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);

@@ -1,4 +1,6 @@
-console.log("hello world");
+console.log("********************************************************");
+console.log(`Variables in Typescript`);
+console.log("********************************************************");
 var a: number = 10;;
 var b: boolean = true;
 var c: string = `deepak`;
@@ -20,9 +22,20 @@ console.log (`My tuple is : ` +myTuple);
 
 
 
-console.log(`My number variable `+a);
-console.log(`my string variable ` + b);
-console.log(`my boolean variable ` +c);
-console.log(`my undefined variable ` +d);
+console.log(`My number variable is `+a);
+console.log(`my string variable is ` + b);
+console.log(`my boolean variable is  ` +c);
+console.log(`my undefined variable is ` +d);
 console.log(`My array is ` + myArray);
+
+console.log("********************************************************");
+console.log(`Operation in Typescript`);
+console.log("********************************************************");
+
+let myFloatVar: number = 8.41;
+let anotherVariable : number = 8.41;
+if (myFloatVar <= anotherVariable)
+{
+console.log (`My condition is ` + (myFloatVar <= anotherVariable));
+}
 

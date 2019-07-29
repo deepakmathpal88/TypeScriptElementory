@@ -1,4 +1,6 @@
-console.log("hello world");
+console.log("********************************************************");
+console.log("Variables in Typescript");
+console.log("********************************************************");
 var a = 10;
 ;
 var b = true;
@@ -16,8 +18,16 @@ console.log("My array after pop  " + myArrayDeclaration);
 //Tuples
 var myTuple = [1, "deepak"];
 console.log("My tuple is : " + myTuple);
-console.log("My number variable " + a);
-console.log("my string variable " + b);
-console.log("my boolean variable " + c);
-console.log("my undefined variable " + d);
-console.log("My arra is " + myArray);
+console.log("My number variable is " + a);
+console.log("my string variable is " + b);
+console.log("my boolean variable is  " + c);
+console.log("my undefined variable is " + d);
+console.log("My array is " + myArray);
+console.log("********************************************************");
+console.log("Operation in Typescript");
+console.log("********************************************************");
+var myFloatVar = 8.41;
+var anotherVariable = 8.41;
+if (myFloatVar <= anotherVariable) {
+    console.log("My condition is " + (myFloatVar <= anotherVariable));
+}

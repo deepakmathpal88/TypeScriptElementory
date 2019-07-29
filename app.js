@@ -31,3 +31,8 @@ var anotherVariable = 8.41;
 if (myFloatVar <= anotherVariable) {
     console.log("My condition is " + (myFloatVar <= anotherVariable));
 }
+console.log("********************************************************");
+console.log("String Operators: Concatenation operator (+)");
+console.log("********************************************************");
+var myString = "deepak" + "mathpal";
+console.log("My concatatnation string is : " + myString);

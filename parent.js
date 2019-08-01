@@ -24,7 +24,14 @@ var childClass = /** @class */ (function (_super) {
     function childClass() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    childClass.prototype.greet = function () {
+        console.log("Hello world");
+    };
+    childClass.prototype.greetLikeNormalPeople = function () {
+        _super.prototype.greet.call(this);
+    };
     return childClass;
 }(parenTclass));
 var child = new childClass();
 child.greet();
+child.greetLikeNormalPeople();

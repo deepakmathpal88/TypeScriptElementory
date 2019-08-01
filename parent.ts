@@ -7,9 +7,14 @@ class parenTclass{
 }
 
 class childClass extends parenTclass {
-
-    
+    greet(){
+        console.log(`Hello world`);
+    }
+    greetLikeNormalPeople(){
+        super.greet();
+    }
 }
 
 var child = new childClass();
 child.greet();
+child.greetLikeNormalPeople();

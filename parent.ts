@@ -18,3 +18,7 @@ class childClass extends parenTclass {
 var child = new childClass();
 child.greet();
 child.greetLikeNormalPeople();
+
+
+var child1:parenTclass = new childClass();
+child1.greet();

@@ -35,3 +35,5 @@ var childClass = /** @class */ (function (_super) {
 var child = new childClass();
 child.greet();
 child.greetLikeNormalPeople();
+var child1 = new childClass();
+child1.greet();

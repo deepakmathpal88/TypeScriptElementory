@@ -18,6 +18,11 @@ console.log("My array after pop  " + myArrayDeclaration);
 //Tuples
 var myTuple = [1, "deepak"];
 console.log("My tuple is : " + myTuple);
+// declaration piped variable
+var myPipevar;
+myPipevar = 10;
+myPipevar = 'deepak';
+myPipevar = true;
 console.log("My number variable is " + a);
 console.log("my string variable is " + b);
 console.log("my boolean variable is  " + c);

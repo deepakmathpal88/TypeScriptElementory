@@ -20,6 +20,13 @@ console.log(`My array after pop  ${myArrayDeclaration}`)
 var myTuple : [number, string] = [1, `deepak`];
 console.log (`My tuple is : ` +myTuple);
 
+// declaration piped variable
+
+
+var myPipevar : number|string|boolean;
+myPipevar = 10;
+myPipevar = 'deepak';
+myPipevar = true;
 
 
 console.log(`My number variable is `+a);

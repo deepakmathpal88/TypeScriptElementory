@@ -8,7 +8,6 @@ var c = "deepak";
 var d;
 var myArray = [1, 2, 3];
 var myArrayDeclaration;
-myArrayDeclaration = [];
 myArrayDeclaration = [1, 2];
 console.log("My array before push " + myArrayDeclaration);
 myArrayDeclaration.push(11);

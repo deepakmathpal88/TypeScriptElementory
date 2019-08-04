@@ -7,7 +7,6 @@ var c: string = `deepak`;
 var d :undefined;
 var myArray = [1,2,3];
 var myArrayDeclaration : number[];
-myArrayDeclaration= [];
 myArrayDeclaration= [1,2];
 console.log(`My array before push ` + myArrayDeclaration);
 myArrayDeclaration.push(11);

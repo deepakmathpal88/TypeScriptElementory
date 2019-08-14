@@ -1,4 +1,4 @@
-function isBigEnough(element, index, array) { 
+export function isBigEnough(element, index, array) { 
     return (element >= 10); 
  } 
            
